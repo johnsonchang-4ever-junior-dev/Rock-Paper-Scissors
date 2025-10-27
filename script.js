@@ -41,6 +41,28 @@ function playRound(humanChoice, computerChoice){
     
 }
 
+// Add an event listener to the buttons that call your playRound function with the correct playerSelection every time a button is clicked. (you can keep the console.logs for this step)
+
+const rockButton = document.querySelector("#rock");
+const paperButton = document.querySelector("#paper");
+const scissorsButton = document.querySelector("#scissors");
+
+
+rockButton.addEventListener("mouseup", () => {
+    const computerSelection = getComputerChoice();
+    playRound("rock", computerSelection);
+});
+
+paperButton.addEventListener("mouseup", () => {
+    const computerSelection = getComputerChoice();
+    playRound("paper", computerSelection);
+});
+
+scissorsButton.addEventListener("mouseup", () => {
+    const computerSelection = getComputerChoice();
+    playRound("scissors", computerSelection);
+});
+
 // const rounds = 5;
 // for (let i = 0; i < rounds; i++) {
 //     const humanSelection = getHumanChoice();
