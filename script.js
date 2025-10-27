@@ -41,19 +41,19 @@ function playRound(humanChoice, computerChoice){
     
 }
 
-const rounds = 5;
-for (let i = 0; i < rounds; i++) {
-    const humanSelection = getHumanChoice();
-    const computerSelection = getComputerChoice();
+// const rounds = 5;
+// for (let i = 0; i < rounds; i++) {
+//     const humanSelection = getHumanChoice();
+//     const computerSelection = getComputerChoice();
 
-    playRound(humanSelection, computerSelection);
-}
+//     playRound(humanSelection, computerSelection);
+// }
 
-console.log(`Final Scores - You: ${humanScore}, Computer: ${computerScore}`);
-if (humanScore > computerScore) {
-    console.log("Congratulations! You are the overall winner!");
-} else if (computerScore > humanScore) {
-    console.log("Sorry! The computer is the overall winner!");
-} else {
-    console.log("It's an overall tie!");
-}   
+// console.log(`Final Scores - You: ${humanScore}, Computer: ${computerScore}`);
+// if (humanScore > computerScore) {
+//     console.log("Congratulations! You are the overall winner!");
+// } else if (computerScore > humanScore) {
+//     console.log("Sorry! The computer is the overall winner!");
+// } else {
+//     console.log("It's an overall tie!");
+// }   
