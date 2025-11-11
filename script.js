@@ -2,7 +2,13 @@
 // Write the code.
 // Test your code to make sure it works.
 console.log("Hello World")
-
+const container = document.querySelector(".game");
+const content = document.createElement("div");
+content.classList.add("game-result"); // Add class for styling
+container.appendChild(content); // Append to .game container
+const rockButton = document.querySelector("#rock");
+const paperButton = document.querySelector("#paper");
+const scissorsButton = document.querySelector("#scissors");
 
 function getComputerChoice(){
     const choices = ['rock', 'paper', 'scissors'];
@@ -61,9 +67,7 @@ function playRound(humanChoice, computerChoice){
 
 // Add an event listener to the buttons that call your playRound function with the correct playerSelection every time a button is clicked. (you can keep the console.logs for this step)
 
-const rockButton = document.querySelector("#rock");
-const paperButton = document.querySelector("#paper");
-const scissorsButton = document.querySelector("#scissors");
+
 
 
 rockButton.addEventListener("mouseup", () => {
@@ -100,8 +104,7 @@ if (humanScore > computerScore) {
 
 // Add a div for displaying results and change all of your console.logs into DOM methods.
 
-const container = document.querySelector(".game");
-const content = document.createElement("div");
+
 content.classList.add("content");
 container.appendChild(content);
 
