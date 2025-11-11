@@ -16,9 +16,9 @@ A classic Rock Paper Scissors game built with vanilla JavaScript, HTML, and CSS 
 ## 🔗 Live Demo
 
 Copy and paste this on your browser to view the project:
-```
-https://johnsonchang-4ever-junior-dev.github.io/Rock-Paper-Scissors/index.html
-```
+''' https://johnsonchang-4ever-junior-dev.github.io/Rock-Paper-Scissors/index.html
+'''
+
 
 ## 🛠️ Technologies & Skills Used
 
