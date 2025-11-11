@@ -16,6 +16,7 @@ A classic Rock Paper Scissors game built with vanilla JavaScript, HTML, and CSS 
 ## 🔗 Live Demo
 
 Copy and paste this on your browser to view the project:
+
 ```
 https://johnsonchang-4ever-junior-dev.github.io/Rock-Paper-Scissors/index.html
 ```
@@ -23,11 +24,13 @@ https://johnsonchang-4ever-junior-dev.github.io/Rock-Paper-Scissors/index.html
 ## 🛠️ Technologies & Skills Used
 
 ### Frontend Technologies
+
 - **HTML5**: Semantic markup for game structure
 - **JavaScript (ES6+)**: Game logic and interactivity
 - **DOM Manipulation**: Dynamic content updates
 
 ### JavaScript Concepts Demonstrated
+
 - **Event Listeners**: Handling button click events with `addEventListener()`
 - **querySelector**: Selecting and manipulating DOM elements
 - **Functions**: Modular code organization with `getComputerChoice()`, `getHumanChoice()`, and `playRound()`
@@ -38,6 +41,7 @@ https://johnsonchang-4ever-junior-dev.github.io/Rock-Paper-Scissors/index.html
 - **Game State Management**: Score tracking and game flow control
 
 ### Programming Concepts
+
 - **Algorithm Design**: Game logic flow and decision trees
 - **User Interface Design**: Interactive button-based gameplay
 - **Error Handling**: Input validation and game state management
@@ -69,6 +73,7 @@ Rock_paper/
 ## 📚 Learning Objectives
 
 This project demonstrates proficiency in:
+
 - DOM manipulation and event handling
 - JavaScript fundamentals and ES6+ features
 - Game logic implementation
@@ -77,4 +82,4 @@ This project demonstrates proficiency in:
 
 ---
 
-*This project is part of The Odin Project's JavaScript curriculum, focusing on DOM manipulation and event-driven programming.*
+_This project is part of The Odin Project's JavaScript curriculum, focusing on DOM manipulation and event-driven programming._
