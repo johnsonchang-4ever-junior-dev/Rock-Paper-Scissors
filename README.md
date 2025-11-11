@@ -16,7 +16,6 @@ A classic Rock Paper Scissors game built with vanilla JavaScript, HTML, and CSS 
 ## 🔗 Live Demo
 
 Copy and paste this on your browser to view the project:
-
 ```
 https://johnsonchang-4ever-junior-dev.github.io/Rock-Paper-Scissors/index.html
 ```
@@ -82,4 +81,8 @@ This project demonstrates proficiency in:
 
 ---
 
+<<<<<<< HEAD
 _This project is part of The Odin Project's JavaScript curriculum, focusing on DOM manipulation and event-driven programming._
+=======
+*This project is part of The Odin Project's JavaScript curriculum, focusing on DOM manipulation and event-driven programming.*
+>>>>>>> ec1a42dce995f38f270c87cbd803c981ea717b6b
